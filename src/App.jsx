@@ -81,7 +81,7 @@ function App() {
                     className="product-image"
                   />
                   <div className="product-info">
-                    <h3 className="product-title">Bom-Bon Mermelada</h3>
+                    <h3 className="product-title">BomBon Mermelada</h3>
                     <p className="product-description">
                       2 bombones rellenos de mermelada de frutilla y manjar, con trozos de
                       galleta de vainilla con cobertura de chocolate.
@@ -96,7 +96,7 @@ function App() {
                     className="product-image"
                   />
                   <div className="product-info">
-                    <h3 className="product-title">Bom-Bon Prestigio</h3>
+                    <h3 className="product-title">BomBon Prestigio</h3>
                     <p className="product-description">
                       2 bombones relleno de coco rallado con leche condensada y cobertura de chocolate.
                     </p>
@@ -111,7 +111,7 @@ function App() {
                     className="product-image"
                   />
                   <div className="product-info">
-                    <h3 className="product-title">Bom-Bon Nuez</h3>
+                    <h3 className="product-title">BomBon Nuez</h3>
                     <p className="product-description">
                       2 bombones relleno de nuez picada y manjar con cobertura de chocolate.
                     </p>
@@ -125,7 +125,7 @@ function App() {
                     className="product-image"
                   />
                   <div className="product-info">
-                    <h3 className="product-title">Bom-Bon Oreo</h3>
+                    <h3 className="product-title">BomBon Oreo</h3>
                     <p className="product-description">
                       2 bombones relleno de galleta oreo con cobertura de chocolate.
                     </p>
