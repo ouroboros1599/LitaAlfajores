@@ -180,11 +180,44 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .bubble:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    left: 10%;
+    animation-duration: 8s;
+  }
+
+  .bubble:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    animation-duration: 9s;
+  }
+
+  .bubble:nth-child(3) {
+    width: 25px;
+    height: 25px;
+    left: 50%;
+    animation-duration: 7s;
+  }
+
+  .bubble:nth-child(4) {
+    width: 50px;
+    height: 50px;
+    left: 70%;
+    animation-duration: 10s;
+  }
+
+  .bubble:nth-child(5) {
+    width: 35px;
+    height: 35px;
+    left: 90%;
+    animation-duration: 6s;
+  }
 }
 
 /* Bubbles */
 
-/* Animación de burbujas */
 /* Animación de burbujas */
 @keyframes floatZigzag {
   0% {
@@ -214,43 +247,43 @@ body {
   background: #7B3F00; /* Color de los alfajores o bombones */
   border-radius: 50%;
   filter: blur(15px); /* Agrega desenfoque */
-  animation: floatZigzag 10s infinite ease-in-out;
   z-index: 0; /* Envía las burbujas detrás de todo */
   pointer-events: none; /* Evita que interfieran con los clics u otros eventos */
+  animation: floatZigzag infinite ease-in-out;
 }
 
-/* Tamaño y posición inicial de las burbujas */
+/* Tamaño, posición inicial y duración independientes */
 .bubble:nth-child(1) {
   width: 120px;
   height: 120px;
   left: 10%;
-  animation-delay: 0s;
+  animation-duration: 8s;
 }
 
 .bubble:nth-child(2) {
   width: 150px;
   height: 150px;
   left: 30%;
-  animation-delay: 2s;
+  animation-duration: 9s;
 }
 
 .bubble:nth-child(3) {
   width: 100px;
   height: 100px;
   left: 50%;
-  animation-delay: 4s;
+  animation-duration: 7s;
 }
 
 .bubble:nth-child(4) {
   width: 180px;
   height: 180px;
   left: 70%;
-  animation-delay: 6s;
+  animation-duration: 10s;
 }
 
 .bubble:nth-child(5) {
   width: 140px;
   height: 140px;
   left: 90%;
-  animation-delay: 8s;
+  animation-duration: 6s;
 }
