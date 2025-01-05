@@ -15,6 +15,11 @@ function App() {
   return (
     <>
       <div className='all-content'>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
         <div className="main-content">
           <div className="header-content">
             <img src={logo} alt="Alfajores la Lita" className="logo" />
