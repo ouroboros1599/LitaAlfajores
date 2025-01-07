@@ -11,17 +11,18 @@ import B_merman from '../src/assets/images/B_mermeladaManjar.webp'
 import B_prestigio from '../src/assets/images/B_prestigio.webp'
 import B_nuez from '../src/assets/images/B_nuez.webp'
 import B_oreo from '../src/assets/images/B_oreo.webp'
+import C_cuchufli from '../src/assets/images/C_cuchufli.webp'
 function App() {
   const currentYear = new Date().getFullYear();
 
   return (
     <>
       <div className='all-content'>
-      <div className="bubble"></div>
-      <div className="bubble"></div>
-      <div className="bubble"></div>
-      <div className="bubble"></div>
-      <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
         <div className="main-content">
           <div className="header-content">
             <img src={logo} alt="Alfajores la Lita" className="logo" />
@@ -33,7 +34,7 @@ function App() {
               <div className="grid">
                 <div className="product-card">
                   <img
-                    src={ A_bonobon }
+                    src={A_bonobon}
                     alt="ALFAJOR DE BON O BON"
                     className="product-image"
                   />
@@ -47,7 +48,7 @@ function App() {
                 </div>
                 <div className="product-card">
                   <img
-                    src= { A_oreo }
+                    src={A_oreo}
                     alt="ALFAJOR DE OREO"
                     className="product-image"
                   />
@@ -61,7 +62,7 @@ function App() {
                 </div>
                 <div className="product-card">
                   <img
-                    src= { A_nuez }
+                    src={A_nuez}
                     alt="ALFAJOR DE NUEZ"
                     className="product-image"
                   />
@@ -83,7 +84,7 @@ function App() {
               <div className="grid">
                 <div className="product-card">
                   <img
-                    src= { B_merman }
+                    src={B_merman}
                     alt="BOMBON DE MERMELADA"
                     className="product-image"
                   />
@@ -98,7 +99,7 @@ function App() {
                 </div>
                 <div className="product-card">
                   <img
-                    src= { B_prestigio }
+                    src={B_prestigio}
                     alt="BOMBON DE PRESTIGIO"
                     className="product-image"
                   />
@@ -113,7 +114,7 @@ function App() {
                 </div>
                 <div className="product-card">
                   <img
-                    src={ B_nuez }
+                    src={B_nuez}
                     alt="BOMBON DE NUEZ"
                     className="product-image"
                   />
@@ -123,11 +124,12 @@ function App() {
                       2 bombones relleno de nuez picada y manjar con cobertura de chocolate.
                     </p>
                     <p className="product-price">$2000</p>
+                    <p className="request">(Bajo pedido)</p>
                   </div>
                 </div>
                 <div className="product-card">
                   <img
-                    src={ B_oreo }
+                    src={B_oreo}
                     alt="BOMBON DE OREO"
                     className="product-image"
                   />
@@ -135,6 +137,27 @@ function App() {
                     <h3 className="product-title">BomBon Oreo</h3>
                     <p className="product-description">
                       2 bombones relleno de galleta oreo con cobertura de chocolate.
+                    </p>
+                    <p className="product-price">$1200</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Sección de cuchuflis */}
+            <div className="section">
+              <h2 className="section-title">Cuchufli</h2>
+              <div className="grid">
+                <div className="product-card">
+                  <img
+                    src={C_cuchufli}
+                    alt="BOMBON DE MERMELADA"
+                    className="product-image"
+                  />
+                  <div className="product-info">
+                    <h3 className="product-title">Cuchufli</h3>
+                    <p className="product-description">
+                      4 cuchufli rellenos de manjar
                     </p>
                     <p className="product-price">$1200</p>
                   </div>
