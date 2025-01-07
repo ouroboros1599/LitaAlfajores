@@ -88,12 +88,16 @@ body {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  border-radius: 8px;
+  border-radius: 60px;
   object-fit: cover; /* Asegura que la imagen mantenga el aspecto y rellene el contenedor */
   max-width: 100%; /* Evita que se estire fuera del contenedor */
   max-height: 100%; /* Mantiene el límite de 150px */
+  transition: transform 0.5s;
 }
 
+.product-image:hover{
+  transform: scale(1.2);
+}
 
 .product-info {
   margin-top: 12px;
@@ -102,7 +106,7 @@ body {
 .product-title {
   font-size: 1.25rem;
   color: #7B3F00; /* Chocolate oscuro */
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   text-transform: uppercase;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -113,11 +117,11 @@ body {
   padding-top: 20px;
   font-size: 0.9rem;
   color: #666; /* Gris para descripción */
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .product-price {
-  padding-top: 40px;
+  padding-top: 30px;
   font-size: 1.4rem;
   color: #7B3F00; /* Rosa pastel */
   font-family: 'Playfair Display', serif;

@@ -9,6 +9,8 @@ import A_oreo from '../src/assets/images/A_oreo.webp';
 import A_nuez from '../src/assets/images/A_nuez.webp';
 import B_merman from '../src/assets/images/B_mermeladaManjar.webp'
 import B_prestigio from '../src/assets/images/B_prestigio.webp'
+import B_nuez from '../src/assets/images/B_nuez.webp'
+import B_oreo from '../src/assets/images/B_oreo.webp'
 function App() {
   const currentYear = new Date().getFullYear();
 
@@ -111,7 +113,7 @@ function App() {
                 </div>
                 <div className="product-card">
                   <img
-                    src="https://via.placeholder.com/150"
+                    src={ B_nuez }
                     alt="BOMBON DE NUEZ"
                     className="product-image"
                   />
@@ -125,7 +127,7 @@ function App() {
                 </div>
                 <div className="product-card">
                   <img
-                    src="https://via.placeholder.com/150"
+                    src={ B_oreo }
                     alt="BOMBON DE OREO"
                     className="product-image"
                   />
@@ -134,7 +136,7 @@ function App() {
                     <p className="product-description">
                       2 bombones relleno de galleta oreo con cobertura de chocolate.
                     </p>
-                    <p className="product-price">$2000</p>
+                    <p className="product-price">$1200</p>
                   </div>
                 </div>
               </div>
