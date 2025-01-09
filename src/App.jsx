@@ -165,16 +165,21 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="footer-content">
-            <div className="social-icons">
-              {/* <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faWhatsapp} size="2x"/>
-              </a> */}
-              <a href="https://www.instagram.com/lita_alfajores/" target="_blank" rel="noopener noreferrer">
-                <img src={igIcon} alt="Instagram - Lita Alfajores" />
-              </a>
+          <div className="section">
+            <h2 className="section-title">Nuestras redes sociales</h2>
+            <div className="footer-content">
+              <div className="social-icons">
+                <div className="grid">
+                  {/* <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faWhatsapp} size="2x"/>
+                  </a> */}
+                  <a href="https://www.instagram.com/lita_alfajores/" target="_blank" rel="noopener noreferrer">
+                    <img src={igIcon} alt="Instagram - Lita Alfajores" />
+                  </a>
+                </div>
+              </div>
+              <p className="copy">© {currentYear} La Lita Alfajores - Todos los derechos reservados.</p>
             </div>
-            <p>© {currentYear} La Lita Alfajores - Todos los derechos reservados.</p>
           </div>
         </div>
       </div>
