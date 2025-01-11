@@ -12,6 +12,9 @@ import B_prestigio from '../src/assets/images/B_prestigio.webp'
 import B_nuez from '../src/assets/images/B_nuez.webp'
 import B_oreo from '../src/assets/images/B_oreo.webp'
 import C_cuchufli from '../src/assets/images/C_cuchufli.webp'
+import box1 from '../src/assets/images/box1.webp'
+import box2 from '../src/assets/images/box2.webp'
+import box3 from '../src/assets/images/box3.webp'
 function App() {
   const currentYear = new Date().getFullYear();
 
@@ -139,6 +142,55 @@ function App() {
                       2 bombones relleno de galleta oreo con cobertura de chocolate.
                     </p>
                     <p className="product-price">$1200</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Sección cajas regalo */}
+            <div className="section">
+              <h2 className="section-title">Cajas de regalo</h2>
+              <div className="grid">
+                <div className="product-card">
+                  <img
+                    src={ box1 }
+                    alt="BOMBON DE MERMELADA"
+                    className="product-image"
+                  />
+                  <div className="product-info">
+                    <h3 className="product-title">Caja de regalo N°1</h3>
+                    <p className="product-description">
+                      2 alfajores de nuez y 2 alfajores de bon o bon
+                    </p>
+                    <p className="product-price">$7000</p>
+                  </div>
+                </div>
+                <div className="product-card">
+                  <img
+                    src={ box2 }
+                    alt="BOMBON DE MERMELADA"
+                    className="product-image"
+                  />
+                  <div className="product-info">
+                    <h3 className="product-title">Caja de regalo N°2</h3>
+                    <p className="product-description">
+                      2 alfajores de oreo, 2 alfajores de bon o bon y 2 bombones mermelada manjar
+                    </p>
+                    <p className="product-price">$6000</p>
+                  </div>
+                </div>
+                <div className="product-card">
+                  <img
+                    src={ box3 }
+                    alt="BOMBON DE MERMELADA"
+                    className="product-image"
+                  />
+                  <div className="product-info">
+                    <h3 className="product-title">Caja de regalo N°3</h3>
+                    <p className="product-description">
+                      2 trufas de nuez, 1 trufa mermelada manjar y 2 alfajores bon o bon
+                    </p>
+                    <p className="product-price">$7500</p>
                   </div>
                 </div>
               </div>
